@@ -8,7 +8,7 @@ for (let i of Numbers){
 }
 document.querySelector('#app').innerHTML = `
   <form action="main.js" method="get">
-  <img src=${Numbers[0].uno.src} alt="10px"/>
+  <img src=${Numbers[1].src} alt="10px"/>
   
   <input type="text" placeholder="valor en binario" />
  
