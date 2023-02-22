@@ -1,23 +1,19 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
-
+import Numbers from "./json/numbers.js"
+import Uno from "./json/assets/images/uno.png"
+for (let i of Numbers){
+  console.log(i.value)
+}
 document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
+  <form action="main.js" method="get">
+  <img src=${Numbers[0].uno.src} alt="10px"/>
+  
+  <input type="text" placeholder="valor en binario" />
+ 
+  <input type="button" value="12324"/ >
+  </form>
 `
 
 setupCounter(document.querySelector('#counter'))
