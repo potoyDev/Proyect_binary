@@ -5,6 +5,7 @@ import Numbers from "./json/numbers.js"
 // import Uno from "./json/assets/images/uno.png"
 for (let i of Numbers){
   console.log(i.value)
+  console.log(i.value)
 }
 document.querySelector('#app').innerHTML = `
   <form action="main.js" method="get">
