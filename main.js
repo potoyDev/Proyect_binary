@@ -13,7 +13,7 @@ document.querySelector('#app').innerHTML = `
   
   <input type="text" placeholder="valor en binario" />
  
-  <input type="button" value="12324"/ >
+  <input type="button" value="Confirme esta opcion"/ >
   </form>
 `
 
