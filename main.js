@@ -17,4 +17,4 @@ document.querySelector('#app').innerHTML = `
   </form>
 `
 
-setupCounter(document.querySelector('#counter'))
+
