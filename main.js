@@ -1,6 +1,6 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
+
+
 import Numbers from "./json/numbers.js"
 // import Uno from "./json/assets/images/uno.png"
 for (let i of Numbers){
